@@ -1,0 +1,45 @@
+{
+  "name": "is-appveyor",
+  "version": "0.0.0",
+  "description": "Check if Node script is running on AppVeyor",
+  "repository": "shinnn/is-appveyor",
+  "author": {
+    "name": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn"
+  },
+  "scripts": {
+    "lint": "eslint *.js test/*.js & jscs .",
+    "debug": "node -e \"console.log(process.env);\"",
+    "pretest": "eval ${npm_package_scripts_lint}",
+    "test": "node test/test-false.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shinnn/is-appveyor/blob/master/LICENSE"
+    }
+  ],
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "keywords": [
+    "shell",
+    "cli",
+    "env",
+    "environment",
+    "variable",
+    "command",
+    "command-line",
+    "windows",
+    "ci",
+    "appveyor",
+    "detect",
+    "check"
+  ],
+  "devDependencies": {
+    "eslint": "^0.8.2",
+    "jscs": "^1.6.2",
+    "tape": "^3.0.0"
+  }
+}
