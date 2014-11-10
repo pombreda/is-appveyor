@@ -1,6 +1,6 @@
 /*!
- * is-powershell | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/is-powershell
+ * is-appveyor | MIT (c) Shinnosuke Watanabe
+ * https://github.com/shinnn/is-appveyor
 */
 'use strict';
 
