@@ -1,5 +1,5 @@
 init:
-  - git config --global core.autocrlf input
+  - git config --global core.autocrlf true
 
 version: '{build}'
 
@@ -10,7 +10,6 @@ environment:
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install tape
 
 build: off
 
@@ -18,5 +17,5 @@ before_test:
   - ps: npm run-script debug
 
 test_script:
-  - ps: 'node test\test-true.js #PowerShell'
-  - cmd: node test\test-true.js
+  - ps: 'node test.js #PowerShell'
+  - cmd: node test.js
