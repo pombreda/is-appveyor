@@ -17,5 +17,5 @@ before_test:
   - ps: npm run-script debug
 
 test_script:
-  - ps: 'node test.js #PowerShell'
-  - cmd: node test.js
+  - ps: 'node test.js --appveyor #PowerShell'
+  - cmd: node test.js --appveyor

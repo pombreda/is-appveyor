@@ -11,7 +11,7 @@
     "lint": "eslint *.js && jscs *.js",
     "debug": "node -e \"console.log(process.env);\"",
     "pretest": "eslint *.js && jscs *.js",
-    "test": "node test.js --no-appveyor"
+    "test": "node test.js"
   },
   "licenses": [
     {
