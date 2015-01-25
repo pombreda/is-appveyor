@@ -8,9 +8,9 @@
     "url": "https://github.com/shinnn"
   },
   "scripts": {
-    "lint": "eslint *.js && jscs *.js",
+    "lint": "jscs *.js && eslint *.js",
     "debug": "node -e \"console.log(process.env);\"",
-    "pretest": "eslint *.js && jscs *.js",
+    "pretest": "jscs *.js && eslint *.js",
     "test": "node test.js"
   },
   "licenses": [
@@ -20,8 +20,7 @@
     }
   ],
   "files": [
-    "index.js",
-    "LICENSE"
+    "index.js"
   ],
   "keywords": [
     "shell",
@@ -38,8 +37,8 @@
     "check"
   ],
   "devDependencies": {
-    "eslint": "^0.10.0",
-    "jscs": "^1.8.1"
+    "eslint": "^0.13.0",
+    "jscs": "^1.10.0"
   },
   "jscsConfig": {
     "preset": "google"
