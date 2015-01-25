@@ -1,6 +1,6 @@
 # is-appveyor
 
-[![NPM version](https://badge.fury.io/js/is-appveyor.svg)](https://www.npmjs.org/package/is-appveyor)
+[![NPM version](https://badge.fury.io/js/is-appveyor.svg)](https://www.npmjs.com/package/is-appveyor)
 [![Build Status](https://travis-ci.org/shinnn/is-appveyor.svg?branch=master)](https://travis-ci.org/shinnn/is-appveyor)
 [![Build Status](https://drone.io/github.com/shinnn/is-appveyor/status.png)](https://drone.io/github.com/shinnn/is-appveyor/latest)
 [![Build status](https://ci.appveyor.com/api/projects/status/qgxjbj1tc7mdou83?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/is-appveyor)
@@ -14,7 +14,7 @@ var isAppVeyor = require('is-appveyor'); // returns boolean
 
 ## Installation
 
-[Use npm](https://www.npmjs.org/doc/cli/npm-install.html).
+[Use npm](https://docs.npmjs.com/cli/install).
 
 ```sh
 npm install is-appveyor
@@ -22,6 +22,6 @@ npm install is-appveyor
 
 ## License
 
-Copyright (c) 2014 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
